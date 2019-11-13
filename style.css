@@ -1,14 +1,38 @@
-h1, h3, p {
-  color: #4B3B40;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
 body {
-  background-color: #EAF2EF ;
+  background-color: #D4D4D4 ;
 }
 
-img {
-  border-radius: 15px;
+h1, h3{
+  color: #4B3B40;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  margin: 20px 0px;
+  padding: 40px;
+  box-shadow: 10px 5px 10px #B8B8B8;
+  height: 200px;
+  background-color: #E2E2E2;
+}
+
+.banner {
+  margin: 20px 0px;
+  padding: 40px;
+  box-shadow: 10px 5px 10px #B8B8B8;
+  height: 500px;
+  background-color: #E2E2E2;
+}
+
+.banner-item {
+  display: flex;
+  justify-content: center;
+}
+
+.round-img img {
+  border-radius: 100px;
+  box-shadow: 10px 5px 10px #B8B8B8;
 }
 
 .btn-contact a {
@@ -18,10 +42,10 @@ img {
 
 .btn-contact {
   background-color: #801811;
-  border: 1px solid black;
+  border: 1px solid #4B3B40;
   width: 80px;
   padding: 5px;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .btn-contact:hover {
@@ -30,6 +54,7 @@ img {
 
 .big-btn {
   font-size: 60px;
+  display:inline-block;
 
 }
 
@@ -38,8 +63,20 @@ img {
   }
 
 .container {
-  text-align: center;
+  width: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.footer {
+  margin: 20px 0px;
+  padding: 40px;
+  box-shadow: 10px 5px 10px #B8B8B8;
+  height: 150px;
+  background-color: #E2E2E2;
+}
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */

@@ -13,7 +13,7 @@ h1, h3{
   margin: 20px 0px;
   padding: 40px;
   box-shadow: 10px 5px 10px #B8B8B8;
-  height: 200px;
+  height: auto;
   background-color: #E2E2E2;
 }
 
@@ -21,7 +21,7 @@ h1, h3{
   margin: 20px 0px;
   padding: 40px;
   box-shadow: 10px 5px 10px #B8B8B8;
-  height: 500px;
+  height: auto;
   background-color: #E2E2E2;
 }
 
@@ -73,7 +73,7 @@ h1, h3{
   margin: 20px 0px;
   padding: 40px;
   box-shadow: 10px 5px 10px #B8B8B8;
-  height: 150px;
+  height: 100px;
   background-color: #E2E2E2;
 }
 
